@@ -1,0 +1,39 @@
+/* Basic CSS file structure */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: yellow   ;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #440a0a;
+    color: #8d1e1e;
+}
+
+/* Example heading styles */
+h1, h2, h3 {
+    margin-bottom: 1rem; color: red
+}
+
+/* Example link styles */
+a {
+    color: #236bb9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Example container class */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
